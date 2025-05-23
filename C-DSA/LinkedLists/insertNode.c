@@ -1,3 +1,5 @@
+/*at the start of the linked list*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -10,6 +12,7 @@ Node *head = NULL;
 Node *createNode(int data)
 {
     Node *temp = (Node*)malloc(sizeof(Node));
+    if(temp == NULL) exit(1);
     temp->data = data;
     temp->next = NULL;
     return temp;
