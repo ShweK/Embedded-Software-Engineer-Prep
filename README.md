@@ -1,2 +1,2 @@
 # Embedded-Software-Engineer-Prep
-C++ DSA, LeetCode Blind 75, and Linux Device Drivers practice
+C-DSA, C++ DSA and LeetCode Blind 75
